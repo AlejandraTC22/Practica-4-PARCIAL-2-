@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3ebe0;
+    border: 1px solid #b69e7c;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(187, 141, 141, 0.1);
+    margin-top: 20px;
+}
+
+h1 
+{
+    text-align: center;
+    color: #a87b00;
+}
+
+.input-container
+{
+    width: 240px;
+    height: 200px;
+    background-color: #e7c594;
+    border: 2px solid #cf8b2b;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input 
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px
+}
+
+button 
+{
+    padding: 10px 20px;
+    background-color: #c99f66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover 
+{
+    background-color: #c57f1c;
+}
+
+ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 
+{
+    margin: 20px 0;
+}
+
+.input-container2
+{
+    width: 400px;
+    height: 100px;
+    background-color: #e7c594;
+    border: 2px solid #cf8b2b;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#productList
+{
+    text-align: center;
+    margin: 15px;
+}
+
+#totalCost
+{
+    width: 130px;
+    height: 50px;
+    background-color: #cca266;
+    border: 2px solid #cf8b2b;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}

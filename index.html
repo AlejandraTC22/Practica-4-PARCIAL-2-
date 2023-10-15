@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Practica 4</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1>Lista de Compra</h1>
+
+            <div class="input-container">
+
+                <label for="product">Nombre del producto:</label>
+                <input type="text" id="product" placeholder="Nombre">
+
+                <label for="price">Precio:</label> 
+                <input type="number" id="price" placeholder="Precio">
+
+                <button id="addBtn">Agregar Producto</button>
+            </div>
+
+            <div class="input-container2">
+                
+                <label for="deleteId">Eliminar Producto (ID):</label>
+                <input type="number" id="deleteId" placeholder="Id">
+
+                <button id="deleteBtn">Eliminar Producto</button>
+            </div>
+
+            <ul id="productList"></ul>
+            
+            <p id="totalCost">Costo Total: $0.00</p>
+        </div>
+
+    <script type="module" src="script.js"></script>
+    </body>
+</html>
